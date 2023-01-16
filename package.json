@@ -1,0 +1,37 @@
+{
+  "name": "api-dinkes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon dinkes-api.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arieazland/dinkes-firlyarieazland-1.git"
+  },
+  "author": "arieazland",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arieazland/dinkes-firlyarieazland-1/issues"
+  },
+  "homepage": "https://github.com/arieazland/dinkes-firlyarieazland-1#readme",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "device-detector-js": "^3.0.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "express-useragent": "^1.0.15",
+    "md5": "^2.3.0",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.33",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
